@@ -1,0 +1,59 @@
+.Cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    border: 1px solid rgb(218, 218, 218);
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px 70px;
+}
+.Cart img{
+    width: 150px;
+}
+.Cart div h3{
+    color: rgb(0, 174, 255);
+}
+.Cart div p{
+    color: green;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Cart div span{
+    color: white;
+    background-color: tomato;
+    border-radius: 10px;
+    padding: 8px 14px;
+}
+.cartimage button{
+    background-color: white;
+    border: none;
+}
+.cartimage button:first-child img{
+    width: 20px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cartimage button:nth-child(2) img{
+    width: 20px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cartimage button:last-child img{
+    width: 20px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    border: none;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}

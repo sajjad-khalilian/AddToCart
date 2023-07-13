@@ -1,0 +1,60 @@
+body{
+    background-color: #e8e8e8;
+}
+.Main_product{
+    width: 18%;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-radius: 9px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 65px;
+    padding: 10px 10px 20px 10px;
+    cursor: pointer;
+}
+.Main_product img{
+    width: 180px;
+    height: 180px;
+}
+.Main_product div{
+    text-align: left;
+}
+.AddtoCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.AddtoCart a{
+    text-decoration: none;
+    color: rgb(68, 68, 255);
+}
+.AddtoCart div button:first-child{
+    background-color: rgb(68, 68, 255);
+    color: white;
+    margin-right: 2px;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.Negative{
+    background-color: rgb(68, 68, 255);
+    color: white;
+    margin-right: 2px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 11px;
+    cursor: pointer;
+}
+.quantityCounter{
+    margin: 0 5px;
+}
+.RemoveItem{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+}

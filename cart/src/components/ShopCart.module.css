@@ -1,0 +1,47 @@
+.shopCart{
+    width: 22%;
+    border: 1px solid gray;
+    margin: 30px 70px;
+    position: absolute;
+    top: 92px;
+    right: 0;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+    background-color: white;
+    padding: 3px 15px 20px 15px;
+}
+.shopCart p span{
+    color: rgb(0, 81, 255);
+}
+.shopCart div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shopCart div button:first-child{
+    background-color: white;
+    color: rgb(86 211 86);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.shopCart div button:last-child{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.EmptyText{
+    text-align: center;
+    font-size: 22px;
+}
+.checkOut{
+    text-align: center;
+    font-size: 20px;
+}
+.Clear{
+    text-align: center;
+    font-size: 20px;
+}
